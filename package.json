@@ -1,0 +1,25 @@
+{
+  "name": "node-ftp-lite",
+  "version": "0.1.0",
+  "description": "A wrapper for the node-ftp-client and nodt-ftp",
+  "main": "./lib/lite.js",
+  "bin": {
+    "ftplite": "./bin/ftplite"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "ftp"
+  ],
+  "author": "qix",
+  "licenses": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "ftp-client": "~0.2.2"
+  },
+  "devDependencies": {
+    "inquirer": "^3.0.6"
+  }
+}
