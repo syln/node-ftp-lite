@@ -1,3 +1,4 @@
 node_modules
 ftp.conf.json
 .vscode
+.npmignore

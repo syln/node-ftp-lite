@@ -2,7 +2,15 @@
 
 > a wrapeer for the node-ftp-client and node-ftp
 
-### usage
+### Install
+
+```js
+
+npm install ftp-lite
+
+```
+
+### Usage
 
 create a new `ftp.conf.json` in your root dir, it should be like this:
 

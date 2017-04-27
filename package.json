@@ -1,25 +1,31 @@
 {
-  "name": "node-ftp-lite",
-  "version": "0.1.0",
+  "name": "ftp-lite",
+  "version": "0.1.2",
   "description": "A wrapper for the node-ftp-client and nodt-ftp",
+  "author": "qix",
   "main": "./lib/lite.js",
   "bin": {
     "ftplite": "./bin/ftplite"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/syln/node-ftp-lite.git"
+  },
+  "bugs":{
+    "url":"https://github.com/syln/node-ftp-lite/issues"
   },
   "keywords": [
     "node",
     "ftp"
   ],
-  "author": "qix",
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
   "licenses": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "ftp-client": "~0.2.2"
-  },
-  "devDependencies": {
-    "inquirer": "^3.0.6"
+    "ftp-client": "~0.2.2",
+    "inquirer": "~3.0.6"
   }
 }
